@@ -1,0 +1,68 @@
+body {
+    font-size: 10pt;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: 5C1802;
+    line-height: 14pt;
+    padding-left: 5pt;
+    padding-right: 5pt;
+    padding-top: 5pt;
+    background-color: hsla(222, 80%, 29%, 0.5);
+}
+
+header {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* nav bar css */
+a {
+    font-size: 20px;
+    padding: 10px 5px 10px 5px;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: white;   
+}
+
+.intro {
+    float: left; 
+}
+
+.introPara {
+    float: right;
+    overflow-wrap: break-word; 
+    font-size: 20px;
+}
+
+/* pictures.html */
+
+.placeImages {
+    height: auto;
+    background-color: grey;
+}
+.placeImages li {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: top;
+}
+.placeImages img {
+    display: inline-block;
+    width: 100px;
+    border: none;
+    border-width: 5px;
+    padding: 10px;
+    border-radius: 17px;
+    float: none;
+}
+.placeImages img:hover {
+    display: inline-block; 
+    width:220px;
+    border:none;
+    border-width:2px;
+    padding:10px;
+    border-radius:17px; 
+}
